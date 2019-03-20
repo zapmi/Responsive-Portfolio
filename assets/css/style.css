@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("../images/psychedelic_pattern_@2X.png");
+}
+
+header {
+    background-color: lightblue;
+    height: 75px;
+    width: 100%;
+    clear: both;
+}
+
+header div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    height: 75px;
+    width: 960px;
+    margin: auto;
+}
+
+header h1 {
+    float: left;
+    background-color: rgb(245, 200, 192);
+    height: 75px;
+    padding: 17px 10px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    float: right;
+    padding-top: 47px;
+    margin-right: 13px;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.sectionIndex {
+    background-color: blue;
+    color: white;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#indexH1, #portfolioH1 {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    color: #4aaaa5;
+    padding-left: 20px;
+    border-bottom: 1px solid red;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 200px;
+    float: left;
+    padding: 15px 20px;
+}
+
+p {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 75px;
+    width: 100%;
+    border-top: 6px solid #4aaaa5;
+    margin-top: 140px;
+    position: fixed;
+    bottom: 0;
+}
+
+/* added section to footer to move copyright text down */
+
+footer section {
+    background-color: gray;
+    margin-top: 50px;
+}
+
+.sectionContact {
+    width: 960px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+#contactH1 {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    color: #4aaaa5;
+    padding-left: 20px;
+    border-bottom: 1px solid red;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputBoxes {
+    color: white;
+}
+
+#inputButton {
+    background-color: rgb(245, 200, 192);
+    padding: 10px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#messageBox {
+    width: 400px;
+    height: 150px;
+}
+
+.sectionPortfolio {
+    background-color: blue;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0px 20px 30px 20px;
+    box-sizing: border-box;
+}
+
+#portfolioH1 {
+    padding-top: 10px;
+}
+
+.sectionImage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolioItem {
+    background-size: cover;
+    width: 225px;
+    height: 225px;
+    position: relative;
+    margin: .7em;
+}
+
+#portfolioSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+}
+
+div a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: line-through;
+}
+
+#portfolio1 {
+    background-image: url(../images/lokisphynx6.jpg);
+}
+
+#portfolio2 {
+    background-image: url(../images/lokisphynx4.jpg);
+}
+
+#portfolio3 {
+    background-image: url(../images/lokisphynx2.jpg);
+}
+
+#portfolio4 {
+    background-image: url(../images/lokisphynx5.jpg);
+}
+
+#portfolio5 {
+    background-image: url(../images/lokisphynx3.jpg);
+}
+
+h4 {
+    position: absolute;
+    bottom: 1em;
+    background-color: rgba(84, 74, 230, 0.39);
+    color: white;
+    width: 100%;
+    padding: .3em 0;
+    text-align: center;
+    font-size: 1.3em;
+    font-variant: small-caps;
+    margin: 0;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    /* body {
+      background-color: red;
+    } */
+  
+    /* The wrapper's width will be 600px */
+    .sectionIndex {
+      width: 600px;
+      background-color: red;
+    }
+  }
+  
