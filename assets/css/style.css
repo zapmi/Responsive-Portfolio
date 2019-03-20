@@ -43,6 +43,7 @@ nav a {
     background-color: blue;
     color: white;
     width: 960px;
+    height: 300px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
@@ -209,18 +210,29 @@ h4 {
 
 /*
   These rules take effect when the browser's width
-  is either 768px or less.
+  is either 980px or less.
 */
-@media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-    /* body {
-      background-color: red;
-    } */
-  
-    /* The wrapper's width will be 600px */
+
+@media screen and (max-width: 980px) {
     .sectionIndex {
-      width: 600px;
-      background-color: red;
+        width: 480px;
+        height: 375px;
+        float: left;
+        margin-left: 60px;
+        background-color: red;
     }
-  }
-  
+    @media screen and (max-width: 768px) {
+        .sectionIndex {
+            width: 720px;
+            background-color: purple;
+            margin: 10px;
+        }
+        @media screen and (max-width: 640px) {
+            .sectionIndex {
+                width: 605px;
+                background-color: teal;
+                margin: 10px;
+            }
+        }
+    }
+}
