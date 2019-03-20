@@ -221,19 +221,20 @@ h4 {
     }
     .sectionIndex {
         width: 480px;
-        height: 315px;
+        height: 345px;
         float: left;
         margin-left: 50px;
         background-color: lime;    
     }
     .sectionPortfolio {
-        width: 500px;
+        width: 490px;
         height: 590px;
         /* float: left; */
         margin-left: 50px;
     }
+
     img {
-        height: 150px;
+        height: 175px;
         padding: 10px;
     
     }
@@ -243,8 +244,10 @@ h4 {
     }
 
     #portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5 {
-        height: 150px;
-        width: 175px
+        height: 155px;
+        width: 175px;
+        /* width: 100%;
+        height: auto; */
     }
 
     h4 {
