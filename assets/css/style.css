@@ -29,7 +29,6 @@ header h1 {
     padding: 22px 10px;
     box-sizing: border-box;
     margin: 0;
-    
 }
 
 nav {
@@ -60,7 +59,7 @@ nav a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     color: #4aaaa5;
-    padding-left: 20px;
+    padding-left: 10px;
     border-bottom: 1px solid red;
     margin-bottom: 10px;
 }
@@ -203,13 +202,6 @@ h4 {
     margin: 0;
 }
 
-
-
-
-
-
-
-
 /*
   These rules take effect when the browser's width
   is either 980px or less.
@@ -224,7 +216,7 @@ h4 {
         height: 345px;
         float: left;
         margin-left: 50px;
-        background-color: lime;    
+        background-color: blue;
     }
     .sectionPortfolio {
         width: 490px;
@@ -232,37 +224,103 @@ h4 {
         /* float: left; */
         margin-left: 50px;
     }
-
+    .sectionContact {
+        width: 480px;
+        float: left;
+        margin-left: 50px;
+    }
     img {
         height: 175px;
         padding: 10px;
-    
     }
-
     nav {
         margin-right: 50px;
     }
-
     #portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5 {
         height: 155px;
         width: 175px;
+        margin-left: 30px;
         /* width: 100%;
         height: auto; */
     }
-
     h4 {
-        
-        
+        padding: .2em 0;
+        bottom: .3em;
     }
-
-
+    #input1, #input2, #messageBox {
+        width: 433px;
+    }
+    /* browser width, windows resizer */
     /* ////////////////// */
+
+
+
+
+
+
+
+
+
+
+
     @media screen and (max-width: 768px) {
+        header {
+            width: 768px;
+            position: static;
+        }
+
+        header h1 {
+            margin-left: 30px;
+        }
+
+        header div {
+            width: 768px;;
+        }
+
+        nav{
+            margin-right: 30px;
+        }
+        
         .sectionIndex {
             width: 720px;
             background-color: purple;
             margin: 10px;
+            margin-left: 30px;
         }
+
+        .sectionPortfolio {
+            margin-left: 25px;
+            width: 720px;
+        }
+
+        img {
+            width: 225px;
+            height: 225px;
+        }
+
+        #portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5 {
+            /* width: 275px; */
+            /* height: 150px; */
+            background-size: 225px 100px;
+
+            /* width: 100%;
+        height: auto; */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         @media screen and (max-width: 640px) {
             .sectionIndex {
                 width: 605px;
