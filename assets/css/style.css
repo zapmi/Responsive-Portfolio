@@ -252,57 +252,39 @@ h4 {
     }
     /* browser width, windows resizer */
     /* ////////////////// */
-
-
-
-
-
-
-
-
-
-
-
     @media screen and (max-width: 768px) {
         header {
             width: 768px;
             position: static;
         }
-
         header h1 {
             margin-left: 30px;
         }
-
         header div {
-            width: 768px;;
+            width: 768px;
+            ;
         }
-
-        nav{
+        nav {
             margin-right: 30px;
         }
-        
         .sectionIndex {
             width: 720px;
             background-color: purple;
             margin: 10px;
             margin-left: 30px;
         }
-
         .sectionPortfolio {
             margin-left: 25px;
             width: 720px;
         }
-
         img {
             width: 225px;
             height: 225px;
         }
-
         #portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5 {
             /* width: 275px; */
             /* height: 150px; */
-            background-size: 225px 100px;
-
+            background-size: 175px 165px;
             /* width: 100%;
         height: auto; */
         }
@@ -319,13 +301,27 @@ h4 {
 
 
 
-
-
         @media screen and (max-width: 640px) {
+            header h1 {
+                width:640px;
+                float: none;
+            }
+            header {
+                width: 640px;
+            }
+            header div {
+                width: 640px;
+            }
+            nav {
+                margin-right: 30px;
+            }
+
+
             .sectionIndex {
                 width: 605px;
-                background-color: teal;
+                background-color: red;
                 margin: 10px;
+                margin-left: 20px;
             }
         }
     }
