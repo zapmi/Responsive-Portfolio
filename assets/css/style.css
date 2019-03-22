@@ -304,16 +304,24 @@ h4 {
         @media screen and (max-width: 640px) {
             header h1 {
                 width:640px;
-                float: none;
+                float: left;
+                margin: 0;
+                text-align: center;
             }
             header {
                 width: 640px;
+                position: static;
+                top: 0;
             }
             header div {
                 width: 640px;
             }
             nav {
-                margin-right: 30px;
+                margin-right: 210px;
+                background-color: blue;
+                /* margin-top: 30px; */
+                
+                
             }
 
 
