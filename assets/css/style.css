@@ -269,7 +269,7 @@ h4 {
         }
         .sectionIndex {
             width: 720px;
-            background-color: purple;
+            background-color: blue;
             margin: 10px;
             margin-left: 30px;
         }
@@ -302,6 +302,11 @@ h4 {
 
 
         @media screen and (max-width: 640px) {
+            html {
+                width: 660px;
+            }
+
+
             header h1 {
                 width:640px;
                 float: left;
@@ -309,17 +314,33 @@ h4 {
                 text-align: center;
             }
             header {
+                /* clear: both;
+                overflow: auto; */
                 width: 640px;
                 position: static;
                 top: 0;
+                
             }
             header div {
                 width: 640px;
+                
             }
             nav {
-                margin-right: 210px;
+                width: 640px;
+                margin-right: 0px;                
+                margin-top: 0px;
+                text-align: center;
+                /* height: 10px; */
+                
                 background-color: blue;
+                /* position: absolute; */
                 /* margin-top: 30px; */
+                
+                
+            }
+
+            nav a {
+                float: middle;
                 
                 
             }
@@ -330,6 +351,16 @@ h4 {
                 background-color: red;
                 margin: 10px;
                 margin-left: 20px;
+                height: 655px;
+            }
+            img {
+                height: 375px;
+                width: 375px;
+                margin-left: 50px;
+        
+            }
+            p {
+                float: left;
             }
         }
     }
